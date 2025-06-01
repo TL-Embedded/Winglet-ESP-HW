@@ -1,0 +1,1098 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6dffa6f3-3b22-4369-8b4c-5139254f6267")
+	(paper "A4")
+	(lib_symbols
+		(symbol "N_NonPart:QR_5mm_JLC"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "N"
+				(at 0.508 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "QR 5mm"
+				(at 4.572 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "N_NonPart:QR_5mm_JLC"
+				(at 4.826 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "QR 8mm JLCPCB"
+				(at 4.572 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "QR_5mm_JLC_0_1"
+				(rectangle
+					(start 0 8.89)
+					(end 2.54 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 2.54)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 8.89)
+					(end 8.89 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 2.54)
+					(end 8.255 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "QR_5mm_JLC_1_1"
+				(polyline
+					(pts
+						(xy 0 5.715) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 8.255)
+					(end 1.905 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 1.905)
+					(end 1.905 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 8.89) (xy 5.715 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.985 8.255)
+					(end 8.255 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 1.905)
+					(end 7.62 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 5.715) (xy 8.89 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "N_NonPart:ToolingHole_1mm"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "N"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ToolingHole"
+				(at 0 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "N_NonPart:ToolingHole_1mm"
+				(at 0.254 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TOOLING HOLE 1MM"
+				(at 0 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ToolingHole_1mm_1_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 152.4 64.77) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04491dc1-c71f-47db-bcfa-128d81366a34")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0461bebe-1315-4724-b94d-ded5b90c53ae")
+	)
+	(wire
+		(pts
+			(xy 152.4 62.23) (xy 165.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2d340f-34aa-49c5-8e7d-970459b28581")
+	)
+	(wire
+		(pts
+			(xy 101.6 54.61) (xy 114.3 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554a8af3-f529-4097-9b8f-cd8348860907")
+	)
+	(wire
+		(pts
+			(xy 152.4 57.15) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65addc41-f84f-443e-ac60-d415adbfde95")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f84914e-2fff-4d71-abb8-a81c610fbe46")
+	)
+	(wire
+		(pts
+			(xy 101.6 80.01) (xy 165.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a159e95-3f5f-428d-8f30-5ea5ca3c3631")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a924e4-54b5-4ce7-b2fb-e24ad303d062")
+	)
+	(wire
+		(pts
+			(xy 152.4 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb295f2-00de-4773-93f1-c66e8c5e161c")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba53f83e-13f9-48d9-ac3d-2243037c2193")
+	)
+	(wire
+		(pts
+			(xy 101.6 64.77) (xy 114.3 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c5ee13-f533-47a2-bc37-d2df32dcafcc")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 114.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2f9fbc-7b62-47c3-b4f3-7e7c7f99ed5a")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e583c0-7c13-4221-83e5-96c52bd23476")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f608bb11-15cb-4f9b-a231-53a23e58f1bb")
+	)
+	(wire
+		(pts
+			(xy 152.4 69.85) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feecc99e-61d4-458d-be07-c73ad99a8843")
+	)
+	(symbol
+		(lib_id "N_NonPart:ToolingHole_1mm")
+		(at 50.8 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "314c0eb3-9ec7-4039-a403-22ab332b4d44")
+		(property "Reference" "N3"
+			(at 53.34 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 53.34 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:ToolingHole_1mm"
+			(at 51.054 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TOOLING HOLE 1MM"
+			(at 50.8 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Winglet-ESP-HW"
+				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267"
+					(reference "N3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:ToolingHole_1mm")
+		(at 50.8 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f60be35-c993-429d-a46a-2a460b15b3ec")
+		(property "Reference" "N4"
+			(at 53.34 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 53.34 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:ToolingHole_1mm"
+			(at 51.054 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TOOLING HOLE 1MM"
+			(at 50.8 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Winglet-ESP-HW"
+				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267"
+					(reference "N4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:ToolingHole_1mm")
+		(at 50.8 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51079674-de6e-4dff-b8c0-fb2017f5b0c2")
+		(property "Reference" "N2"
+			(at 53.34 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 53.34 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:ToolingHole_1mm"
+			(at 51.054 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TOOLING HOLE 1MM"
+			(at 50.8 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267"
+					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:QR_5mm_JLC")
+		(at 49.53 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7ceb2fd-a65d-49fd-bc23-3e43c70a65be")
+		(property "Reference" "N1"
+			(at 59.69 133.9849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "QR 5mm"
+			(at 59.69 136.5249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:QR_5mm_JLC"
+			(at 54.356 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.895 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "QR 8mm JLCPCB"
+			(at 54.102 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267"
+					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 50.8)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 175 255 191 1.0000)
+		)
+		(uuid "511d157f-94fc-4033-97ac-d9db895e7292")
+		(property "Sheetname" "Connector"
+			(at 76.2 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 76.2 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DCD" input
+			(at 101.6 67.31 0)
+			(uuid "a023229c-bfcd-431a-b715-cc177ef7187f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DTR" output
+			(at 101.6 69.85 0)
+			(uuid "60a6c2e4-996c-4b08-8516-5f9e33f6897f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NETLIGHT" input
+			(at 101.6 72.39 0)
+			(uuid "7eba2249-b961-47a1-929d-349b9d452246")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET" output
+			(at 101.6 57.15 0)
+			(uuid "15dc83d7-6745-4264-bfc8-7ad7528ea5e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX" output
+			(at 101.6 64.77 0)
+			(uuid "85243d69-2680-43ed-bf21-7ad61c547515")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX" input
+			(at 101.6 62.23 0)
+			(uuid "0a823dd2-367b-4088-bf3a-1d31497f7462")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 101.6 80.01 0)
+			(uuid "8deff4c9-c899-4c2a-8b04-d51d2542fa50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 101.6 82.55 0)
+			(uuid "25356ecb-6296-4001-983c-e0d58ab56fe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WAKE" output
+			(at 101.6 54.61 0)
+			(uuid "7951348f-6bd2-46c0-9b60-5a8b4405de46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Winglet-ESP-HW"
+				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 50.8)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 175 255 191 1.0000)
+		)
+		(uuid "6340d5a9-c33e-4bc5-a081-bc441f4b339a")
+		(property "Sheetname" "ESP"
+			(at 165.1 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp.kicad_sch"
+			(at 165.1 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESP_BOOT" input
+			(at 165.1 57.15 180)
+			(uuid "03628f0c-b83c-4392-9e23-60e52e0bb287")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_DCD" output
+			(at 165.1 67.31 180)
+			(uuid "8e9d734d-a9a1-4cb0-bde0-533576ba0c1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_DTR" input
+			(at 165.1 69.85 180)
+			(uuid "e6047f9b-ac0e-4ebd-ad94-a8ea48d8efb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_NETLIGHT" output
+			(at 165.1 72.39 180)
+			(uuid "7c8abfbd-93ef-45c9-8d94-fc4a0ed0b57b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_RX" input
+			(at 165.1 64.77 180)
+			(uuid "de18f5d3-3216-446e-9a14-3ff403b6a44a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_TX" output
+			(at 165.1 62.23 180)
+			(uuid "c7cec4c0-8152-4c47-b501-073efe687486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 165.1 80.01 180)
+			(uuid "0a0fca6c-9eab-4653-a3e0-d3844c67e507")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 165.1 82.55 180)
+			(uuid "3b08fa1a-548b-459d-8be2-24d212badd5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Winglet-ESP-HW"
+				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 50.8)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 175 255 191 1.0000)
+		)
+		(uuid "e2d079f8-713b-4a82-a2f3-a3acfc2ed7a4")
+		(property "Sheetname" "Translation"
+			(at 114.3 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "translation.kicad_sch"
+			(at 114.3 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DCD" output
+			(at 114.3 67.31 180)
+			(uuid "8a0ae254-e6bf-475f-a455-790cedd7d2a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DTR" input
+			(at 114.3 69.85 180)
+			(uuid "3a94a0c7-ac4c-4223-9882-7ed25cfc9e97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_BOOT" output
+			(at 152.4 57.15 0)
+			(uuid "ac437291-bac7-4b47-8273-4717d9bf86a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_DCD" input
+			(at 152.4 67.31 0)
+			(uuid "f8da06b2-a271-439b-8132-d8361f1d454e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_DTR" output
+			(at 152.4 69.85 0)
+			(uuid "a85c1b04-4f71-4a74-99e7-6458a44706b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_NETLIGHT" input
+			(at 152.4 72.39 0)
+			(uuid "0e626155-c744-46e4-b491-1f4a4ab42624")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_RX" output
+			(at 152.4 64.77 0)
+			(uuid "8c163fd5-8807-44b1-8152-31f79e96211c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_TX" input
+			(at 152.4 62.23 0)
+			(uuid "a35543e8-9750-41a2-a009-c372f4b33cb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NETLIGHT" output
+			(at 114.3 72.39 180)
+			(uuid "dd667c64-6cdd-4247-a1e7-532bcaac096f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 114.3 57.15 180)
+			(uuid "f2610067-0f14-42f1-b2ac-5dd4de38f3d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" input
+			(at 114.3 64.77 180)
+			(uuid "1b8e5a5f-67be-4e49-a10e-60e8b88c0b2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" output
+			(at 114.3 62.23 180)
+			(uuid "f87efcae-f7e9-45c6-9a18-de43fdbf45b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WAKE" input
+			(at 114.3 54.61 180)
+			(uuid "9a484124-488e-487f-9e4f-ebe3155fcf3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Winglet-ESP-HW"
+				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
