@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "b1473ae3-94ce-4cd8-920b-7af668497416")
 	(paper "A4")
+	(title_block
+		(title "Winglet-ESP")
+		(rev "v1.0")
+		(company "TL Embedded")
+	)
 	(lib_symbols
 		(symbol "C_Capacitor:C_0603"
 			(pin_numbers
@@ -130,7 +135,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "M_Mechanical:Mount_M2.5"
+		(symbol "M_Mechanical:PTH_M2.5"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -142,7 +147,7 @@
 					)
 				)
 			)
-			(property "Value" "Mount_M2.5"
+			(property "Value" "PTH_M2.5"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -150,7 +155,7 @@
 					)
 				)
 			)
-			(property "Footprint" "M_Mechanical:Mount_M2.5"
+			(property "Footprint" "M_Mechanical:PTH_M2.5"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -177,7 +182,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Mount_M2.5_0_1"
+			(symbol "PTH_M2.5_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -187,6 +192,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "PTH_M2.5_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3754,6 +3779,73 @@
 		(uuid "c30f2b9f-d53c-47b3-8e02-e097c209be77")
 	)
 	(symbol
+		(lib_id "M_Mechanical:PTH_M2.5")
+		(at 139.7 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05f6427e-9aeb-4276-8400-795b0860d334")
+		(property "Reference" "M2"
+			(at 142.24 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTH_M2.5"
+			(at 142.24 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M_Mechanical:PTH_M2.5"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7902fa14-3f60-4aea-baee-552dd599bd8d")
+		)
+		(instances
+			(project "Winglet-ESP-HW"
+				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267/511d157f-94fc-4033-97ac-d9db895e7292"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 66.04 101.6 90)
 		(mirror x)
@@ -3896,7 +3988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2438ff18-9091-44fc-9eec-a36e894e2ec4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 224.79 116.84 0)
 			(effects
 				(font
@@ -3946,7 +4038,7 @@
 		(instances
 			(project "Winglet-ESP-HW"
 				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267/511d157f-94fc-4033-97ac-d9db895e7292"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4175,7 +4267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446b8411-b26a-48db-a79e-88767ca5b0e3")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 224.79 138.43 0)
 			(effects
 				(font
@@ -4224,6 +4316,71 @@
 		)
 		(instances
 			(project ""
+				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267/511d157f-94fc-4033-97ac-d9db895e7292"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48095ea7-5e33-40fd-acc1-aaedf7d0a106")
+		(property "Reference" "#PWR08"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d030e7d5-06a2-4a98-ad71-b98c3b05fb9d")
+		)
+		(instances
+			(project "Winglet-ESP-HW"
 				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267/511d157f-94fc-4033-97ac-d9db895e7292"
 					(reference "#PWR08")
 					(unit 1)
@@ -4449,35 +4606,33 @@
 		)
 	)
 	(symbol
-		(lib_id "M_Mechanical:Mount_M2.5")
-		(at 139.7 63.5 0)
+		(lib_id "power:GND")
+		(at 139.7 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72ecf0d5-4d5e-4b8e-bc20-888c3267bed3")
-		(property "Reference" "M1"
-			(at 142.24 62.2299 0)
+		(uuid "89694afb-8dcf-4b6a-8126-323fcd102219")
+		(property "Reference" "#PWR07"
+			(at 139.7 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "Mount_M2.5"
-			(at 142.24 64.7699 0)
+		(property "Value" "GND"
+			(at 139.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "M_Mechanical:Mount_M2.5"
-			(at 139.7 69.85 0)
+		(property "Footprint" ""
+			(at 139.7 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 68.58 0)
+			(at 139.7 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,19 +4649,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 139.7 63.5 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "496e99be-5f7f-4554-9a47-925787bb45f5")
 		)
 		(instances
 			(project "Winglet-ESP-HW"
 				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267/511d157f-94fc-4033-97ac-d9db895e7292"
-					(reference "M1")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4730,17 +4888,17 @@
 		)
 	)
 	(symbol
-		(lib_id "M_Mechanical:Mount_M2.5")
-		(at 139.7 69.85 0)
+		(lib_id "M_Mechanical:PTH_M2.5")
+		(at 139.7 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eacf332b-f2a3-449c-b279-f59381b7c21d")
-		(property "Reference" "M2"
-			(at 142.24 68.5799 0)
+		(uuid "dbfa0958-8df7-4a62-9136-f65ab5747b64")
+		(property "Reference" "M1"
+			(at 142.24 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,8 +4906,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Mount_M2.5"
-			(at 142.24 71.1199 0)
+		(property "Value" "PTH_M2.5"
+			(at 142.24 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,8 +4915,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M_Mechanical:Mount_M2.5"
-			(at 139.7 76.2 0)
+		(property "Footprint" "M_Mechanical:PTH_M2.5"
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 74.93 0)
+			(at 134.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 69.85 0)
+			(at 139.7 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,10 +4942,13 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "59b1a116-9a2a-4dc0-992f-9ecdc2c57fc1")
+		)
 		(instances
-			(project "Winglet-ESP-HW"
+			(project ""
 				(path "/6dffa6f3-3b22-4369-8b4c-5139254f6267/511d157f-94fc-4033-97ac-d9db895e7292"
-					(reference "M2")
+					(reference "M1")
 					(unit 1)
 				)
 			)

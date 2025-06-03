@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "6dffa6f3-3b22-4369-8b4c-5139254f6267")
 	(paper "A4")
+	(title_block
+		(title "Winglet-ESP")
+		(date "2025-06-03")
+		(rev "v1.0")
+		(company "TL Embedded")
+	)
 	(lib_symbols
 		(symbol "N_NonPart:QR_5mm_JLC"
 			(exclude_from_sim no)
