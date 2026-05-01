@@ -6,3 +6,7 @@ Winglet-ESP-HW-backups/
 outputs
 
 fp-info-cache
+
+esp-at/.venv/
+
+esp-at/mfg_nvs/
